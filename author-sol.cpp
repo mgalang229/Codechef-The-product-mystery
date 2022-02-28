@@ -17,7 +17,7 @@ void TestCase() {
 	// example: let b = 8, c = 12
 	// = 8a / 12
 	// = 2a / 3
-	// = 2(3) / 3 -> we need to cancel 3
+	// = 2(3) / 3 -> we need to cancel c, so use c itself
 	// = 2
 	cout << c / GCD(b, c) << '\n';
 }
